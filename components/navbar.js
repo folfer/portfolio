@@ -74,12 +74,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/folfer/portfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -112,7 +109,7 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="https://github.com/folfer/homepage">
+                <MenuItem as={Link} href="https://github.com/folfer/portfolio">
                   View Source
                 </MenuItem>
               </MenuList>

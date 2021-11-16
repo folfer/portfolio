@@ -81,8 +81,8 @@ const Home = () => (
           React Native, prototyping with user interface (UI Design) with Figma
           tool, theories and concepts about the Scrum Master and Product Owner
           agile development area.{' '}
-          <NextLink href="/works/inkdrop">
-            <Link>FindYourBook</Link>
+          <NextLink href="/works/umacidadepordia">
+            <Link>Uma Cidade Por Dia</Link>
           </NextLink>
           .
         </Paragraph>
